@@ -10,8 +10,8 @@ type BallsStore = {
 
 const createNewBall = () => {
   const ball = new Ball(
-    randInt(0, window.innerWidth - 50),
-    randInt(0, window.innerHeight - 50),
+    randInt(50, window.innerWidth - 50),
+    randInt(50, window.innerHeight - 50),
     randInt(30, 50),
     randInt(1, 5)
   );
